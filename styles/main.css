@@ -1,0 +1,80 @@
+html, body{
+    margin: 0;
+    padding: 0;
+
+    min-width: 100%;
+    width: 100%;
+    max-width: 100%;
+    background-color: black;
+    position: relative;
+    color:#fa0073;
+
+}
+
+#headerLinks{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    display: block;
+    font-family: Arial, sans-serif;
+    font-weight: normal;
+    font-size: 2em;
+    text-align: right;
+    vertical-align: middle;
+}
+
+#vid{
+	position: absolute;
+	top: 0px;
+	right: 0px;
+	bottom: 0px;
+    left: 0px;
+}
+
+#container {
+	width:100%;
+    position:relative;
+}
+
+#poster {;
+    position: relative;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    width:100%;
+}
+
+.column {
+  float: left;
+  width: 25%;
+}
+
+#watchText {
+    display: block;
+    float:left;
+    min-width: 100%;
+    position: relative;
+    font-family: Arial, sans-serif;
+    font-weight: bold;
+    font-size: 3em;
+    text-align: center;
+    vertical-align: top;
+}
+
+#banner {
+	z-index:3;
+	position:fixed;
+	top: 0px;
+	right: 0px;
+	bottom: 0px;
+	left: 0px;
+}
+
+#bannerMail {
+	z-index:4;
+	position:fixed;
+	top: 2%;
+    left: 40%;
+    color: white;
+    color:transparent;
+}
